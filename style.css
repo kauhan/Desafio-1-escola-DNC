@@ -1,0 +1,160 @@
+*{
+ margin: 0px;
+ font-family: "inter";
+
+
+    
+}
+
+#titulo{
+
+    margin-left: 62px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+#sub-titulo {
+   margin-left: 62px; 
+   font-size: 20px;
+   color: #FFFFFF;
+}
+ 
+
+#cabecalho{
+
+    background-color: #303030;
+    padding-top: 200px;
+    padding-bottom: 200px;
+       
+}
+
+
+    
+#menu {
+
+    background: #F9F9F9;
+    display: flex;
+    justify-content: space-around;
+    font-weight:600;
+    font-size: 17px; 
+    height: 200px;
+    color:#000000;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    
+    
+}
+
+.texto-informativo{
+
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;   
+    
+}
+
+#valor0{
+
+    font-size: 40px;
+    padding-right: 180px;   
+  
+}
+
+#valor1 
+{
+    font-size: 40px;
+    padding-right: 200px;  
+}
+
+#valor2{
+
+    font-size: 40px;
+    padding-right: 30px;
+}
+
+#corpo-pagina{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+   
+}
+
+
+#imagem{
+
+    margin: 100px 40px 60px 0px;
+    max-width: 100%;
+  
+}
+ 
+
+
+.container{
+
+    margin-left: 120px;
+    margin-top: 300px;
+   
+}
+
+#sub-texto{
+    font-size: 25px;
+}
+
+#texto-principal{
+    font-size: 40px;
+}
+
+#formulario{
+
+    text-align: center;
+    background: #303030;
+    
+}
+
+#titulo-formulario{
+    font-size:30px;
+    margin: 25px;
+    color: #FFFFFF;
+    padding-top:60px;
+
+}
+
+input{
+    width:300px;
+    height: 40px;
+    margin: 15px;
+    background-color:#FFFFFF;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    
+  
+  }
+
+  button{
+  
+    background-color: #C07212;
+    height: 50px;
+    width:200px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+button:hover{
+    background-color: #c07212b9;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #0f151865;
+    transition-duration: 0.5s;
+  }
